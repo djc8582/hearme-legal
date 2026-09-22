@@ -102,4 +102,4 @@ page.
 ## Contact
 
 Questions about this policy, or requests about your data:
-**cantor.dylan@gmail.com**
+**gil.weinberg@me.com**
