@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy — HearMe
 
-**Last updated: 22 September 2026**
+**Last updated: 21 October 2026**
 
 HearMe is a music creation app. You record or play a short musical idea, add
 some words, and the app builds a finished song around them. This policy
@@ -57,9 +57,18 @@ can draw the visualisation you see on the result screen. This processing is what
 makes the app work; without it no song can be generated.
 
 **Lyric processing.** Lyrics are also processed by Alibaba Cloud's DashScope
-API (dashscope-intl.aliyuncs.com), which formats them for the music model. In
-the web app, word suggestions in the lyric editor are looked up via Datamuse
+API (dashscope-intl.aliyuncs.com), which formats them for the music model. Word
+suggestions in the lyric editor and the word bank are looked up via Datamuse
 (api.datamuse.com). Neither is used for advertising.
+
+**AI lyric suggestions.** When you ask the app to suggest or rewrite a lyric
+line, your lyrics are sent to the research server above, which uses Anthropic's
+Claude to write the suggestion. Only the lyrics are sent, not your name or email
+address. This happens only when you use those features, and Anthropic does not
+use the data for advertising.
+
+**Email.** Verification codes and access codes are emailed to you through
+Resend (resend.com), which receives only your email address and the message.
 
 Other than the services named above, which process data only to make the app
 work, we do not share your data with anyone, and we do not use it for
